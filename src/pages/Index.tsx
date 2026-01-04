@@ -77,7 +77,7 @@ const Index = () => {
       // Send webhook request and capture response
       const websiteUrl = window.location.href;
       const response = await axios.post(
-        "https://vinmkn8n3.app.n8n.cloud/webhook/Website_name_for_name_meaning",
+        "https://vinmkn8n4.app.n8n.cloud/webhook-test/Website_name_for_name_meaning",
         { website: websiteUrl, name: name }
       );
 
