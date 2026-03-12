@@ -77,7 +77,7 @@ const Index = () => {
       // Send webhook request and capture response
       const websiteUrl = window.location.href;
       const response = await axios.post(
-        "https://vinmkproton.app.n8n.cloud/webhook-test/Website_name_for_name_meaning",
+        "https://vinmkproton.app.n8n.cloud/webhook/Website_name_for_name_meaning",
         { website: websiteUrl, name: name }
       );
 
